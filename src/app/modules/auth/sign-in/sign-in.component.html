@@ -27,7 +27,8 @@
                 <!-- Separator -->
                 <div class="flex items-center mt-8">
                     <div class="flex-auto mt-px border-t"></div>
-                    <div class="mx-2 text-secondary">Sign In with your Work Email</div>
+                    <div class="mx-2 text-secondary">Sign In with your Work Email. 
+                        <br />*You will be assigned a random user while in the demo. Any action taken will show as that random alias.</div>
                     <div class="flex-auto mt-px border-t"></div>
                 </div>
 
@@ -39,7 +40,7 @@
                     <!-- LIVE: signInSSOmicrosoft() -->
                     <!-- DEMO: signInDemoSite() -->
                     
-                    <button class="flex-auto p-5" mat-stroked-button (click)="signInDemoSite()">
+                    <button class="flex-auto p-5" mat-flat-button (click)="signInDemoSite()" color="primary">
                         <mat-icon class="icon-size-5" [svgIcon]="'feather:grid'"></mat-icon>
                         <span style="margin-left: 10px;">Microsoft / Office365 Single Sign On</span>
                     </button>
@@ -82,8 +83,8 @@
             <!-- Content -->
             <div class="z-10 relative w-full max-w-2xl">
                 <div class="text-7xl font-bold leading-none text-gray-100">
-                    <div>Welcome to</div>
-                    <div>SkillResults!</div>
+                    <div>SkillResults</div>
+                    <div class="mt-10">LIVE DEMO</div>
                 </div>
                 <div class="mt-6 text-lg tracking-tight leading-6 text-gray-400">
                     SkillResults helps organizations track skills, education, certifications and more. To sign in, please use your Microsoft Office365 work email and password.
