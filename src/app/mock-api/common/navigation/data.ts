@@ -348,13 +348,13 @@ export const futuristicNavigation: FuseNavigationItem[] = [
                 icon: 'heroicons_outline:sparkles',
                 link: 'wishlist'
             },
-            {
-                id: 'teams',
-                title: 'Teams',
-                type: 'basic',
-                icon: 'heroicons_solid:user-group',
-                link: 'teams'
-            },
+            // {
+            //     id: 'teams',
+            //     title: 'Teams',
+            //     type: 'basic',
+            //     icon: 'heroicons_solid:user-group',
+            //     link: 'teams'
+            // },
             {
                 id: 'administration',
                 title: 'Administration',
@@ -376,13 +376,13 @@ export const futuristicNavigation: FuseNavigationItem[] = [
                         icon: 'heroicons_outline:chart-pie',
                         link: 'administration/admin-reports'
                     },
-                    {
-                        id: 'positions',
-                        title: 'Positions',
-                        type: 'basic',
-                        icon: 'cases',
-                        link: 'administration/positions'
-                    },
+                    // {
+                    //     id: 'positions',
+                    //     title: 'Positions',
+                    //     type: 'basic',
+                    //     icon: 'cases',
+                    //     link: 'administration/positions'
+                    // },
                     {
                         id: 'global-settings',
                         title: 'Global Settings',
